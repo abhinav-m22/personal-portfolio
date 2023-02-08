@@ -154,9 +154,55 @@ const skills = {
   ],
 };
 
+const competitiveSites = {
+  competitiveSites: [
+    {
+      siteName: "LeetCode",
+      iconifyClassname: "simple-icons:leetcode",
+      style: {
+        color: "#F79F1B",
+      },
+      profileLink: "https://leetcode.com/abhinav_m22/",
+    },
+    {
+      siteName: "GeeksforGeeks",
+      iconifyClassname: "simple-icons:geeksforgeeks",
+      style: {
+        color: "#308D46",
+      },
+      profileLink: "https://www.hackerearth.com/@ashutosh391",
+    },
+    {
+      siteName: "Codechef",
+      iconifyClassname: "simple-icons:codechef",
+      style: {
+        color: "#5B4638",
+      },
+      profileLink: "https://www.codechef.com/users/abhinav_m22",
+    },
+    {
+      siteName: "HackerRank",
+      iconifyClassname: "simple-icons:hackerrank",
+      style: {
+        color: "#2EC866",
+      },
+      profileLink: "https://www.hackerrank.com/abhinav_m22",
+    },
+    {
+      siteName: "Codeforces",
+      iconifyClassname: "simple-icons:codeforces",
+      style: {
+        color: "#1F8ACB",
+      },
+      profileLink: "http://codeforces.com/profile/abhinav_m22",
+    },
+  ],
+};
+
 export {
   settings,
   greeting,
   socialMediaLinks,
-  skills
+  skills,
+  competitiveSites
 };
