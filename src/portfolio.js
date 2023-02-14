@@ -110,6 +110,13 @@ const skills = {
             color: "#333",
           },
         },
+        {
+          skillName: "Firebase",
+          fontAwesomeClassname: "simple-icons:firebase",
+          style: {
+            color: "#FFCA28",
+          },
+        },
       ],
     },
     {
