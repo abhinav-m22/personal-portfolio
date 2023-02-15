@@ -206,10 +206,45 @@ const competitiveSites = {
   ],
 };
 
+const degrees = {
+  degrees: [
+    {
+      title: "Vishwakarma Institute of Technology",
+      subtitle: "B.Tech. in Computer Engineering",
+      alt_name: "VIT",
+      duration: "2021 - Present",
+      descriptions: [
+        "⚡ I'm currently a sophomore at VIT, Pune.",
+        "⚡ I have studied basic subjects like Data Structures & Algorithms, DBMS, OS, etc.",
+        "⚡ Apart from this, I have also completed several projects using various technologies.",
+      ],
+    },
+    {
+      title: "Fergusson College",
+      subtitle: "Junior College - HSC",
+      duration: "2019 - 2021",
+      descriptions: [
+        "⚡ I studied in junior college with specialization in Science i.e. Physics, Chemistry, Mathematics, etc.",
+        "⚡ I graduated HSC with a score of 92.00%.",
+      ],
+    },
+    {
+      title: "St. Xavier's High School",
+      subtitle: "High School - SSC",
+      duration: "2009 - 2019",
+      descriptions: [
+        "⚡ Completed my primary schooling for 10 years.",
+        "⚡ I graduated SSC with a score of 95.40%.",
+      ],
+    },
+  ],
+};
+
 export {
   settings,
   greeting,
   socialMediaLinks,
   skills,
-  competitiveSites
+  competitiveSites, 
+  degrees
 };

@@ -2,6 +2,7 @@ import React from "react";
 import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
 import EducationImg from "./EducationImg";
+import Educations from "../../containers/education/Educations";
 import "./EducationComponent.css";
 import { Fade } from "react-reveal";
 import { competitiveSites } from "../../portfolio";
@@ -29,6 +30,7 @@ function Education(props) {
             </div>
           </div>
         </Fade>
+        <Educations theme={props.theme} />
       </div>
       <Footer theme={props.theme} />
     </div>
