@@ -1,6 +1,6 @@
 const settings = {
   isSplash: true,
-  useCustomCursor: true,
+  useCustomCursor: false,
 };
 
 const greeting = {
@@ -240,11 +240,255 @@ const degrees = {
   ],
 };
 
+const projectsHeader = {
+  title: "Projects",
+  description:
+    "My projects utilize a wide range of cutting-edge technologies. There are several of these, ranging from side projects I work on for fun to college assignments. Here are a few things I'm especially proud of.",
+  avatar_image_path: "projects_image.svg",
+};
+
+const projects = {
+  data: [
+    {
+      id: "0",
+      name: "Flipkart Clone",
+      url: "https://github.com/abhinav-m22/flipkart-clone/",
+      description:
+        "An E-commerce website built using MERN(Mongo, Express, React, Node) stack which is a replica of the Flipkart website with all the features similar to actual Flipkart website.",
+      languages: [
+        {
+          name: "React",
+          iconifyClass: "logos-react",
+        },
+        {
+          name: "NodeJs",
+          iconifyClass: "logos-nodejs",
+        },
+        {
+          name: "MongoDB",
+          iconifyClass: "logos-mongodb",
+        },
+        {
+          name: "Material-UI",
+          iconifyClass: "logos:material-ui",
+        },
+        {
+          name: "Redux",
+          iconifyClass: "logos:redux",
+        },
+        {
+          name: "CSS",
+          iconifyClass: "vscode-icons:file-type-css",
+        },
+      ],
+    },
+    {
+      id: "1",
+      name: "Indian Sign Language Detection",
+      url: "https://github.com/abhinav-m22/vocalize",
+      description:
+        "A realtime LSTM sign language detection model used to detect and identify different actions to help the specially abled using Mediapipe and Tensorflow.",
+      languages: [
+        {
+          name: "Python",
+          iconifyClass: "logos-python",
+        },
+        {
+          name: "Tensorflow",
+          iconifyClass: "logos-tensorflow",
+        },
+        {
+          name: "Flutter",
+          iconifyClass: "logos-flutter",
+        },
+        {
+          name: "Dart",
+          iconifyClass: "logos-dart",
+        },
+        {
+          name: "Keras",
+          iconifyClass: "simple-icons:keras",
+        },
+      ],
+    },
+    {
+      id: "2",
+      name: "Free Eats",
+      url: "https://github.com/abhinav-m22/Tenacity_Android_Rookies",
+      description:
+        "A system that connects users to food that has been left over from stores, restaurants, and other sources in an effort to reduce food waste. It functions like a platform for different sources and those in need of food. The application was developed using Flutter, Dart and Firebase.",
+      languages: [
+        {
+          name: "Flutter",
+          iconifyClass: "logos-flutter",
+        },
+        {
+          name: "Dart",
+          iconifyClass: "logos-dart",
+        },
+        {
+          name: "Firebase",
+          iconifyClass: "logos-firebase",
+        },
+      ],
+    },
+    {
+      id: "3",
+      name: "Spotify Clone",
+      url: "https://github.com/abhinav-m22/spotify-clone-2.0",
+      description:
+        "A music player web app using ReactJS, Tailwind CSS and RapidAPI. A fully responsive music player website with various features like 'Lyrics', 'Top Charts', 'Popular Music Around You', 'Search via Artists', Artists' information, and many more.",
+      languages: [
+        {
+          name: "React",
+          iconifyClass: "logos-react",
+        },
+        {
+          name: "NodeJs",
+          iconifyClass: "logos-nodejs",
+        },
+        {
+          name: "RapidAPI",
+          iconifyClass: "mdi:api",
+        },
+        {
+          name: "Redux",
+          iconifyClass: "logos:redux",
+        },
+      ],
+    },
+    {
+      id: "4",
+      name: "Toxic Comment Classification",
+      url: "https://github.com/abhinav-m22/Toxic-Comment-Classification",
+      description:
+        "A Deep Learning model to detect the toxic comments like threats, obscenity, insults, and identity-based hate. The model uses Natural Language Processing (NLP) to detect the toxic comments.",
+      languages: [
+        {
+          name: "Python",
+          iconifyClass: "logos-python",
+        },
+        {
+          name: "Tensorflow",
+          iconifyClass: "logos-tensorflow",
+        },
+      ],
+    },
+    {
+      id: "5",
+      name: "OpticARt - Amplifying In-Store Shopping Experience using Augmented Reality (AR) and Machine Learning.",
+      url: "",
+      description:
+        "A mobile app to detect grocery items and display its contents, similar recommendations in the form of Augmented Reality. A Tensorflow based CNN model was created and linked to a Flutter application. In-Store navigation was done using the ARWay SDK.",
+      languages: [
+        {
+          name: "Unity",
+          iconifyClass: "mdi:unity",
+        },
+        {
+          name: "Tensorflow",
+          iconifyClass: "logos-tensorflow",
+        },
+        {
+          name: "Flutter",
+          iconifyClass: "logos-flutter",
+        },
+        {
+          name: "Dart",
+          iconifyClass: "logos-dart",
+        },
+        {
+          name: "Firebase",
+          iconifyClass: "logos-firebase",
+        },
+      ],
+    },
+    {
+      id: "6",
+      name: "Google Keep Clone",
+      url: "https://github.com/abhinav-m22/google-keep-clone",
+      description:
+        "It uses React to build a clone of the Google Keep App. It can add and remove notes and is styled using CSS and JSX.",
+      languages: [
+        {
+          name: "React",
+          iconifyClass: "logos-react",
+        },
+        {
+          name: "CSS",
+          iconifyClass: "vscode-icons:file-type-css",
+        },
+        {
+          name: "JavaScript",
+          iconifyClass: "logos-javascript",
+        },
+      ],
+    },
+    {
+      id: "7",
+      name: "Google Keep Clone 2.0",
+      url: "https://github.com/abhinav-m22/google-keep-clone-2.0",
+      description:
+        "An updated version of Google Keep Clone with updated UI and UX. It can add, remove and archive notes and is styled using MaterialUI, CSS and JSX.",
+      languages: [
+        {
+          name: "React",
+          iconifyClass: "logos-react",
+        },
+        {
+          name: "JavaScript",
+          iconifyClass: "logos-javascript",
+        },
+        {
+          name: "Material-UI",
+          iconifyClass: "logos:material-ui",
+        },
+        {
+          name: "CSS",
+          iconifyClass: "vscode-icons:file-type-css",
+        },
+      ],
+    },
+    {
+      id: "8",
+      name: "Employee Management System",
+      url: "https://github.com/abhinav-m22/employee-management-system",
+      description:
+        "A platform developed using Python and MySQL Database to maintain the details of employees working in any organization.",
+      languages: [
+        {
+          name: "Python",
+          iconifyClass: "logos-python",
+        },
+        {
+          name: "MySQL",
+          iconifyClass: "logos-mysql",
+        },
+      ],
+    },
+    {
+      id: "9",
+      name: "Car Racing Game",
+      url: "https://github.com/abhinav-m22/car-racing-game",
+      description:
+        "A video game using Python and Pygame in which the user controls a vehicle in a fictional setting.",
+      languages: [
+        {
+          name: "Python",
+          iconifyClass: "logos-python",
+        },
+      ],
+    },
+  ],
+};
+
 export {
   settings,
   greeting,
   socialMediaLinks,
   skills,
   competitiveSites, 
-  degrees
+  degrees,
+  projects,
+  projectsHeader
 };

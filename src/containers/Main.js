@@ -4,6 +4,7 @@ import Home from "../pages/home/HomeComponent";
 import Splash from "../pages/splash/Splash";
 import { settings } from "../portfolio.js";
 import Education from "../pages/education/EducationComponent";
+import Projects from "../pages/projects/Projects";
 
 export default function Main(propss) {
   if (settings.isSplash) {
@@ -36,6 +37,16 @@ export default function Main(propss) {
               path="/education"
               render={(props) => (
                 <Education
+                  {...props}
+                  theme={propss.theme}
+                  setTheme={propss.setTheme}
+                />
+              )}
+            />
+            <Route
+              path="/projects"
+              render={(props) => (
+                <Projects
                   {...props}
                   theme={propss.theme}
                   setTheme={propss.setTheme}
@@ -76,6 +87,16 @@ export default function Main(propss) {
               path="/education"
               render={(props) => (
                 <Education
+                  {...props}
+                  theme={propss.theme}
+                  setTheme={propss.setTheme}
+                />
+              )}
+            />
+            <Route
+              path="/projects"
+              render={(props) => (
+                <Projects
                   {...props}
                   theme={propss.theme}
                   setTheme={propss.setTheme}
