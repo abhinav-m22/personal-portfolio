@@ -1,12 +1,12 @@
 const settings = {
   isSplash: true,
-  useCustomCursor: false,
+  useCustomCursor: true,
 };
 
 const greeting = {
   title: "Hi There! 👋",
   title2: "Abhinav",
-  logo_name: "AM",
+  logo_name: "<Abhinav />",
   full_name: "Abhinav Mahajan",
   subTitle: "Full Stack Developer. Always learning.",
   mail: "abhinavpm05@gmail.com",
@@ -27,9 +27,9 @@ const skills = {
       fileName: "FullStackImg",
       skills: [
         "⚡ Create highly interactive user interfaces for web applications.",
-        "⚡ Building responsive website front end using ReactJS",
-        "⚡ Creating application backend in NodeJS and ExpressJS",
-        "⚡ Managing databases using MongoDB",
+        "⚡ Building responsive website front end using ReactJS.",
+        "⚡ Creating application backend in NodeJS and ExpressJS.",
+        "⚡ Managing databases using MongoDB.",
       ],
       softwareSkills: [
         {
@@ -123,9 +123,9 @@ const skills = {
       title: "Data Structures & Algorithms",
       fileName: "DSAImg",
       skills: [
-        "⚡ Worked on a variety of problems using multiple programming languages",
-        "⚡ Solid foundation in data structures, from basic arrays to advanced graphs",
-        "⚡ Solving problems in minimum time complexity",
+        "⚡ Worked on a variety of problems using multiple programming languages.",
+        "⚡ Solid foundation in data structures, from basic arrays to advanced graphs.",
+        "⚡ Solving problems in minimum time complexity.",
       ],
       softwareSkills: [
         {
