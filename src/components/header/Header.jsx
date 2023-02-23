@@ -112,15 +112,11 @@ function Header(props) {
               </NavLink>
             </li>
             <li>
-              <NavLink
-                className="xp"
-                to="/resume"
-                tag={Link}
-                activeStyle={{ fontWeight: "bold" }}
-                style={{ borderRadius: 5, color: theme.text }}
-              >
-                Resume
-              </NavLink>
+              <a href="https://drive.google.com/file/d/1aKvfnbixTYWLN9cLIp8NNhzGMEjifJGr/view?usp=sharing" 
+              className="xp"
+              activeStyle={{ fontWeight: "bold" }}
+              style={{ borderRadius: 5, color: theme.text }}
+              >Resume</a>
             </li>
             <li>
               <NavLink

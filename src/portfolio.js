@@ -1,6 +1,6 @@
 const settings = {
   isSplash: true,
-  useCustomCursor: true,
+  useCustomCursor: false,
 };
 
 const greeting = {
