@@ -1,6 +1,6 @@
 const settings = {
   isSplash: true,
-  useCustomCursor: false,
+  useCustomCursor: true,
 };
 
 const greeting = {
@@ -177,7 +177,7 @@ const competitiveSites = {
       style: {
         color: "#308D46",
       },
-      profileLink: "https://www.hackerearth.com/@ashutosh391",
+      profileLink: "https://auth.geeksforgeeks.org/user/abhinav_m22",
     },
     {
       siteName: "Codechef",
@@ -482,6 +482,15 @@ const projects = {
   ],
 };
 
+const contactPageData = {
+  contactSection: {
+    title: "Contact Me",
+    profile_image_path: "undraw_startup_life_re_8ow9.svg",
+    description:
+      "I'm active on most of the websites listed below. If you ping me on one of those, I will respond shortly. I can help you with any of the skills I possess.",
+  },
+};
+
 export {
   settings,
   greeting,
@@ -490,5 +499,6 @@ export {
   competitiveSites, 
   degrees,
   projects,
-  projectsHeader
+  projectsHeader,
+  contactPageData
 };

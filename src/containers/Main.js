@@ -5,6 +5,7 @@ import Splash from "../pages/splash/Splash";
 import { settings } from "../portfolio.js";
 import Education from "../pages/education/EducationComponent";
 import Projects from "../pages/projects/Projects";
+import Contact from "../pages/contact/ContactComponent";
 
 export default function Main(propss) {
   if (settings.isSplash) {
@@ -47,6 +48,16 @@ export default function Main(propss) {
               path="/projects"
               render={(props) => (
                 <Projects
+                  {...props}
+                  theme={propss.theme}
+                  setTheme={propss.setTheme}
+                />
+              )}
+            />
+            <Route
+              path="/contact"
+              render={(props) => (
+                <Contact
                   {...props}
                   theme={propss.theme}
                   setTheme={propss.setTheme}
@@ -97,6 +108,16 @@ export default function Main(propss) {
               path="/projects"
               render={(props) => (
                 <Projects
+                  {...props}
+                  theme={propss.theme}
+                  setTheme={propss.setTheme}
+                />
+              )}
+            />
+            <Route
+              path="/contact"
+              render={(props) => (
+                <Contact
                   {...props}
                   theme={propss.theme}
                   setTheme={propss.setTheme}
