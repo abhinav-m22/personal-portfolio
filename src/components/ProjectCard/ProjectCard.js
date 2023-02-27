@@ -34,7 +34,7 @@ export default function ProjectCard({ repo, theme }) {
           style={{ backgroundColor: theme.projectCard }}
         >
           <div className="repo-name-div" style={{marginBottom: 15}}>
-            <p className="repo-name" style={{ color: theme.text }}>
+            <p className="repo-name" style={{ color: theme.text, whiteSpace: 'pre-wrap' }}>
               {repo.name} 
             </p>
           </div>
