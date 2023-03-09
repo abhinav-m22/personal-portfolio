@@ -313,6 +313,97 @@ const projects = {
     },
     {
       id: "2",
+      name: "Spotify Clone",
+      url: "https://github.com/abhinav-m22/spotify-clone-2.0",
+      description:
+        "A music player web app using ReactJS, Tailwind CSS and RapidAPI. A fully responsive music player website with various features like 'Lyrics', 'Top Charts', 'Popular Music Around You', 'Search via Artists', Artists' information, and many more.",
+      languages: [
+        {
+          name: "React",
+          iconifyClass: "logos-react",
+        },
+        {
+          name: "NodeJs",
+          iconifyClass: "logos-nodejs",
+        },
+        {
+          name: "Tailwind CSS",
+          iconifyClass: "logos:tailwindcss-icon",
+        },
+        {
+          name: "RapidAPI",
+          iconifyClass: "mdi:api",
+        },
+        {
+          name: "Redux",
+          iconifyClass: "logos:redux",
+        },
+      ],
+    },
+    {
+      id: "3",
+      name: "Netflix Clone",
+      url: "https://github.com/abhinav-m22/netflix-clone",
+      description:
+        "A full-stack movie-player web app. The netflix clone is developed using ReactJS, Tailwind CSS, NextJS, Prisma, MongoDB and NextAuth with multiple features.",
+      languages: [
+        {
+          name: "React",
+          iconifyClass: "logos-react",
+        },
+        {
+          name: "NextJs",
+          iconifyClass: "logos:nextjs-icon",
+        },
+        {
+          name: "Tailwind CSS",
+          iconifyClass: "logos:tailwindcss-icon",
+        },
+        {
+          name: "Redux",
+          iconifyClass: "logos:redux",
+        },
+        {
+          name: "Prisma",
+          iconifyClass: "vscode-icons:file-type-light-prisma",
+        },
+        {
+          name: "MongoDB",
+          iconifyClass: "logos-mongodb",
+        },
+      ],
+    },
+    {
+      id: "4",
+      name: "DFaucet",
+      url: "https://github.com/abhinav-m22/dfaucet",
+      description:
+        "A decentralized system where the users can perform transactions using a custom token on the Internet Computer(ICP) Blockchain. Motoko was used for backend and persistence management.",
+      languages: [
+        {
+          name: "ICP",
+          iconifyClass: "cryptocurrency:icp",
+        },
+        {
+          name: "Blockchain",
+          iconifyClass: "icon-park:blockchain",
+        },
+        {
+          name: "Javascript",
+          iconifyClass: "logos-javascript",
+        },
+        {
+          name: "HTML",
+          iconifyClass: "vscode-icons:file-type-html",
+        },
+        {
+          name: "",
+          iconifyClass: "ri:funds-line",
+        },
+      ],
+    },
+    {
+      id: "5",
       name: "Free Eats",
       url: "https://github.com/abhinav-m22/Tenacity_Android_Rookies",
       description:
@@ -333,32 +424,7 @@ const projects = {
       ],
     },
     {
-      id: "3",
-      name: "Spotify Clone",
-      url: "https://github.com/abhinav-m22/spotify-clone-2.0",
-      description:
-        "A music player web app using ReactJS, Tailwind CSS and RapidAPI. A fully responsive music player website with various features like 'Lyrics', 'Top Charts', 'Popular Music Around You', 'Search via Artists', Artists' information, and many more.",
-      languages: [
-        {
-          name: "React",
-          iconifyClass: "logos-react",
-        },
-        {
-          name: "NodeJs",
-          iconifyClass: "logos-nodejs",
-        },
-        {
-          name: "RapidAPI",
-          iconifyClass: "mdi:api",
-        },
-        {
-          name: "Redux",
-          iconifyClass: "logos:redux",
-        },
-      ],
-    },
-    {
-      id: "4",
+      id: "6",
       name: "Toxic Comment Classification",
       url: "https://github.com/abhinav-m22/Toxic-Comment-Classification",
       description:
@@ -375,7 +441,7 @@ const projects = {
       ],
     },
     {
-      id: "5",
+      id: "7",
       name: "OpticARt - Amplifying In-Store Shopping Experience using Augmented Reality (AR) and Machine Learning.",
       url: "",
       description:
@@ -404,7 +470,7 @@ const projects = {
       ],
     },
     {
-      id: "6",
+      id: "8",
       name: "Google Keep Clone",
       url: "https://github.com/abhinav-m22/google-keep-clone",
       description:
@@ -425,7 +491,7 @@ const projects = {
       ],
     },
     {
-      id: "7",
+      id: "9",
       name: "Google Keep Clone 2.0",
       url: "https://github.com/abhinav-m22/google-keep-clone-2.0",
       description:
@@ -450,7 +516,7 @@ const projects = {
       ],
     },
     {
-      id: "8",
+      id: "10",
       name: "Employee Management System",
       url: "https://github.com/abhinav-m22/employee-management-system",
       description:
@@ -467,7 +533,7 @@ const projects = {
       ],
     },
     {
-      id: "9",
+      id: "11",
       name: "Car Racing Game",
       url: "https://github.com/abhinav-m22/car-racing-game",
       description:
