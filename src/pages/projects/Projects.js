@@ -6,6 +6,7 @@ import { Fade } from "react-reveal";
 import { projectsHeader, projects } from "../../portfolio.js";
 import "./Projects.css";
 import ProjectsImg from "./ProjectsImg";
+import TopButton from "../../components/topButton/TopButton";
 
 function Projects(props) {
   const theme = props.theme;
@@ -43,6 +44,7 @@ function Projects(props) {
       </div>
       
       <Footer theme={props.theme} onToggle={props.onToggle} />
+      <TopButton theme={props.theme} />
     </div>
   );
 }

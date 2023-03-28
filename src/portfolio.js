@@ -345,23 +345,23 @@ const projects = {
       name: "Netflix Clone",
       url: "https://github.com/abhinav-m22/netflix-clone",
       description:
-        "A full-stack movie-player web app. The netflix clone is developed using ReactJS, Tailwind CSS, NextJS, Prisma, MongoDB and NextAuth with multiple features.",
+        "A full-stack movie-player web app. The netflix clone is developed using ReactJS, Typescript, Tailwind CSS, NextJS, Prisma, MongoDB and NextAuth with multiple features.",
       languages: [
         {
           name: "React",
           iconifyClass: "logos-react",
         },
         {
-          name: "NextJs",
+          name: "Typesript",
+          iconifyClass: "vscode-icons:file-type-typescript-official",
+        },
+        {
+          name: "NextJS",
           iconifyClass: "logos:nextjs-icon",
         },
         {
           name: "Tailwind CSS",
           iconifyClass: "logos:tailwindcss-icon",
-        },
-        {
-          name: "Redux",
-          iconifyClass: "logos:redux",
         },
         {
           name: "Prisma",

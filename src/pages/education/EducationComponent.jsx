@@ -7,6 +7,7 @@ import "./EducationComponent.css";
 import { Fade } from "react-reveal";
 import { competitiveSites } from "../../portfolio";
 import CompetitiveSites from "../../components/competitiveSites/CompetitiveSites";
+import TopButton from "../../components/topButton/TopButton";
 
 function Education(props) {
   const theme = props.theme;
@@ -33,6 +34,7 @@ function Education(props) {
         <Educations theme={props.theme} />
       </div>
       <Footer theme={props.theme} />
+      <TopButton theme={props.theme} />
     </div>
   );
 }

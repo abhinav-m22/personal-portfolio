@@ -5,6 +5,7 @@ import SocialMedia from "../../components/socialMedia/SocialMedia";
 import { Fade } from "react-reveal";
 import "./ContactComponent.css";
 import { contactPageData } from "../../portfolio.js";
+import TopButton from "../../components/topButton/TopButton";
 
 const ContactData = contactPageData.contactSection;
 
@@ -45,6 +46,7 @@ function Contact(props) {
         </Fade>
       </div>
       <Footer theme={props.theme} onToggle={props.onToggle} />
+      <TopButton theme={props.theme} />
     </div>
   );
 }
