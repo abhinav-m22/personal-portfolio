@@ -37,6 +37,15 @@ function Projects(props) {
           </div>
         </Fade>
       </div>
+      <Fade bottom duration={2000} distance="40px">
+      {/* <h5 style={{marginTop: 10}}>Click on the project for more details</h5> */}
+      <p
+                className="projects-header-detail-text subTitle"
+                style={{ color: theme.secondaryText, marginTop: 10 }}
+              >
+                Click on the project for more details (GitHub and Live Demo)
+              </p>
+      </Fade>
       <div className="repo-cards-div-main">
         {projects.data.map((repo) => {
           return <ProjectCard repo={repo} theme={theme} />;

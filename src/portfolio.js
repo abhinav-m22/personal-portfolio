@@ -251,6 +251,64 @@ const projects = {
   data: [
     {
       id: "0",
+      name: "CodeArena",
+      url: "https://github.com/abhinav-m22/codearena",
+      description:
+        "CodeArena is an online platform to provide developers with a variety of data structures and algorithm problems, helping them enhance their coding proficiency through challenging problem-solving exercises.",
+      languages: [
+        {
+          name: "NextJs",
+          iconifyClass: "logos:nextjs-icon",
+        },
+        {
+          name: "Typesript",
+          iconifyClass: "vscode-icons:file-type-typescript-official",
+        },
+        {
+          name: "Tailwind CSS",
+          iconifyClass: "logos:tailwindcss-icon",
+        },
+        {
+          name: "React",
+          iconifyClass: "logos-react",
+        },
+        {
+          name: "Firebase",
+          iconifyClass: "logos-firebase",
+        },
+      ],
+    },
+    {
+      id: "1",
+      name: "APIscape",
+      url: "https://github.com/abhinav-m22/APIscape",
+      description:
+        "APIscape is a Full-Stack API for text-similarity analysis, allowing users to generate unique API keys, make rate-limited POST requests to determine similarity scores between texts, and manage key access.",
+      languages: [
+        {
+          name: "NextJs",
+          iconifyClass: "logos:nextjs-icon",
+        },
+        {
+          name: "Typesript",
+          iconifyClass: "vscode-icons:file-type-typescript-official",
+        },
+        {
+          name: "Tailwind CSS",
+          iconifyClass: "logos:tailwindcss-icon",
+        },
+        {
+          name: "React",
+          iconifyClass: "logos-react",
+        },
+        {
+          name: "Prisma",
+          iconifyClass: "logos-prisma",
+        },
+      ],
+    },
+    {
+      id: "2",
       name: "Flipkart Clone",
       url: "https://github.com/abhinav-m22/flipkart-clone/",
       description:
@@ -283,7 +341,7 @@ const projects = {
       ],
     },
     {
-      id: "1",
+      id: "3",
       name: "Indian Sign Language Detection",
       url: "https://github.com/abhinav-m22/vocalize",
       description:
@@ -312,7 +370,7 @@ const projects = {
       ],
     },
     {
-      id: "2",
+      id: "4",
       name: "Spotify Clone",
       url: "https://github.com/abhinav-m22/spotify-clone-2.0",
       description:
@@ -341,7 +399,7 @@ const projects = {
       ],
     },
     {
-      id: "3",
+      id: "5",
       name: "Netflix Clone",
       url: "https://github.com/abhinav-m22/netflix-clone",
       description:
@@ -365,7 +423,7 @@ const projects = {
         },
         {
           name: "Prisma",
-          iconifyClass: "vscode-icons:file-type-light-prisma",
+          iconifyClass: "logos-prisma",
         },
         {
           name: "MongoDB",
@@ -374,7 +432,7 @@ const projects = {
       ],
     },
     {
-      id: "4",
+      id: "6",
       name: "DFaucet",
       url: "https://github.com/abhinav-m22/dfaucet",
       description:
@@ -403,7 +461,7 @@ const projects = {
       ],
     },
     {
-      id: "5",
+      id: "7",
       name: "Free Eats",
       url: "https://github.com/abhinav-m22/Tenacity_Android_Rookies",
       description:
@@ -424,7 +482,7 @@ const projects = {
       ],
     },
     {
-      id: "6",
+      id: "8",
       name: "Toxic Comment Classification",
       url: "https://github.com/abhinav-m22/Toxic-Comment-Classification",
       description:
@@ -441,7 +499,7 @@ const projects = {
       ],
     },
     {
-      id: "7",
+      id: "9",
       name: "OpticARt - Amplifying In-Store Shopping Experience using Augmented Reality (AR) and Machine Learning.",
       url: "",
       description:
@@ -470,7 +528,7 @@ const projects = {
       ],
     },
     {
-      id: "8",
+      id: "10",
       name: "Google Keep Clone",
       url: "https://github.com/abhinav-m22/google-keep-clone",
       description:
@@ -491,7 +549,7 @@ const projects = {
       ],
     },
     {
-      id: "9",
+      id: "11",
       name: "Google Keep Clone 2.0",
       url: "https://github.com/abhinav-m22/google-keep-clone-2.0",
       description:
@@ -516,7 +574,7 @@ const projects = {
       ],
     },
     {
-      id: "10",
+      id: "12",
       name: "Employee Management System",
       url: "https://github.com/abhinav-m22/employee-management-system",
       description:
