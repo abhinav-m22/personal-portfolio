@@ -31,7 +31,7 @@ function Header(props) {
     },
   });
 
-  const link = settings.isSplash ? "/splash" : "home";
+  const link = settings.isSplash ? "/" : "home";
 
   const [currTheme, setCurrTheme] = useState(props.theme);
 
@@ -112,7 +112,7 @@ function Header(props) {
               </NavLink>
             </li>
             <li>
-              <a href="https://drive.google.com/file/d/19TbBfaRcWaNEHofmD1YTp4zCAukSzaOS/view?usp=share_link" 
+              <a href="https://drive.google.com/file/d/1GGVtWp8T09XWUpi892N8nJP1iyognvLU/view?usp=sharing" 
               className="xp"
               activeStyle={{ fontWeight: "bold" }}
               style={{ borderRadius: 5, color: theme.text }}
