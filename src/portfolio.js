@@ -251,6 +251,47 @@ const projects = {
   data: [
     {
       id: "0",
+      name: "FashionKart",
+      url: "/",
+      description:
+        "A conversational fashion outfit generator tool powered by Generative AI for personalized fashion recommendations. Considered consumer preferences, previous purchases and social media trends to provide attractive clothing suggestions.",
+      languages: [
+        {
+          name: "Tensorflow",
+          iconifyClass: "logos:tensorflow",
+        },
+        {
+          name: "Flask",
+          iconifyClass: "logos:flask",
+        },
+        {
+          name: "NodeJs",
+          iconifyClass: "logos-nodejs",
+        },
+        {
+          name: "React",
+          iconifyClass: "logos-react",
+        },
+        {
+          name: "Azure",
+          iconifyClass: "logos:microsoft-azure",
+        },
+        {
+          name: "Docker",
+          iconifyClass: "logos:docker-icon",
+        },
+        {
+          name: "MongoDB",
+          iconifyClass: "devicon:mongodb-wordmark",
+        },
+        {
+          name: "Python",
+          iconifyClass: "logos-python",
+        }
+      ],
+    },
+    {
+      id: "1",
       name: "CodeArena",
       url: "https://github.com/abhinav-m22/codearena",
       description:
@@ -279,7 +320,7 @@ const projects = {
       ],
     },
     {
-      id: "1",
+      id: "2",
       name: "APIscape",
       url: "https://github.com/abhinav-m22/APIscape",
       description:
@@ -308,7 +349,37 @@ const projects = {
       ],
     },
     {
-      id: "2",
+      id: "3",
+      name: "AadhaarChain",
+      url: "https://github.com/soham-dixit/AadhaarChain",
+      description:
+        "Revolutionizing Aadhar updation with Web3: Seamless, Secure, and Decentralized. Empowering Indians and service providers through Solidity Smart Contracts, Anon Aadhaar and Scroll.io Network.",
+      languages: [
+        {
+          name: "Flutter",
+          iconifyClass: "logos:flutter",
+        },
+        {
+          name: "Dart",
+          iconifyClass: "logos:dart",
+        },
+        {
+          name: "Solidity",
+          iconifyClass: "logos:solidity",
+        },
+        {
+          name: "Scroll",
+          iconifyClass: "fluent-emoji:scroll",
+        },
+        {
+          name: "React",
+          iconifyClass: "logos-react",
+        },
+      ],
+    },
+
+    {
+      id: "4",
       name: "Flipkart Clone",
       url: "https://github.com/abhinav-m22/flipkart-clone/",
       description:
@@ -324,7 +395,7 @@ const projects = {
         },
         {
           name: "MongoDB",
-          iconifyClass: "logos-mongodb",
+          iconifyClass: "devicon:mongodb-wordmark",
         },
         {
           name: "Material-UI",
@@ -341,7 +412,7 @@ const projects = {
       ],
     },
     {
-      id: "3",
+      id: "5",
       name: "Indian Sign Language Detection",
       url: "https://github.com/abhinav-m22/vocalize",
       description:
@@ -365,12 +436,12 @@ const projects = {
         },
         {
           name: "Keras",
-          iconifyClass: "simple-icons:keras",
+          iconifyClass: "devicon:keras",
         },
       ],
     },
     {
-      id: "4",
+      id: "6",
       name: "Spotify Clone",
       url: "https://github.com/abhinav-m22/spotify-clone-2.0",
       description:
@@ -399,7 +470,7 @@ const projects = {
       ],
     },
     {
-      id: "5",
+      id: "7",
       name: "Netflix Clone",
       url: "https://github.com/abhinav-m22/netflix-clone",
       description:
@@ -427,12 +498,12 @@ const projects = {
         },
         {
           name: "MongoDB",
-          iconifyClass: "logos-mongodb",
+          iconifyClass: "devicon:mongodb-wordmark",
         },
       ],
     },
     {
-      id: "6",
+      id: "8",
       name: "DFaucet",
       url: "https://github.com/abhinav-m22/dfaucet",
       description:
@@ -461,7 +532,7 @@ const projects = {
       ],
     },
     {
-      id: "7",
+      id: "9",
       name: "Free Eats",
       url: "https://github.com/abhinav-m22/Tenacity_Android_Rookies",
       description:
@@ -482,7 +553,7 @@ const projects = {
       ],
     },
     {
-      id: "8",
+      id: "10",
       name: "Toxic Comment Classification",
       url: "https://github.com/abhinav-m22/Toxic-Comment-Classification",
       description:
@@ -499,7 +570,7 @@ const projects = {
       ],
     },
     {
-      id: "9",
+      id: "11",
       name: "OpticARt - Amplifying In-Store Shopping Experience using Augmented Reality (AR) and Machine Learning.",
       url: "",
       description:
@@ -528,7 +599,7 @@ const projects = {
       ],
     },
     {
-      id: "10",
+      id: "12",
       name: "Google Keep Clone",
       url: "https://github.com/abhinav-m22/google-keep-clone",
       description:
@@ -549,7 +620,7 @@ const projects = {
       ],
     },
     {
-      id: "11",
+      id: "13",
       name: "Google Keep Clone 2.0",
       url: "https://github.com/abhinav-m22/google-keep-clone-2.0",
       description:
@@ -574,7 +645,7 @@ const projects = {
       ],
     },
     {
-      id: "12",
+      id: "14",
       name: "Employee Management System",
       url: "https://github.com/abhinav-m22/employee-management-system",
       description:
@@ -591,7 +662,7 @@ const projects = {
       ],
     },
     {
-      id: "11",
+      id: "15",
       name: "Car Racing Game",
       url: "https://github.com/abhinav-m22/car-racing-game",
       description:
@@ -620,7 +691,7 @@ export {
   greeting,
   socialMediaLinks,
   skills,
-  competitiveSites, 
+  competitiveSites,
   degrees,
   projects,
   projectsHeader,
